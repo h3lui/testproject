@@ -13,7 +13,19 @@
     tools:showIn="@layout/activity_my">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:paddingTop="130dp"
+        android:paddingBottom="20dp"
+        android:textSize="32sp"
+        android:textColor="#330000"
+        android:gravity="center"
+        android:text="Welcome to CSE110" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="64sp"
+        android:textColor="#66CCFF"
+        android:gravity="center"
+        android:text="CSE 110" />
 </RelativeLayout>
